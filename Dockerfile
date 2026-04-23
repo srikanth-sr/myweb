@@ -1,4 +1,4 @@
 FROM nginx
 MAINTAINER name srikanth
 LABEL tjis is my first docker image
-COPY index.html .
+COPY index.html /usr/share/nginx/html
